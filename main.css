@@ -9,15 +9,15 @@ font-weight: 500;
 font-style: normal;
 
 html{
-  background-color: #eee;
+  background-color: #c4fa18;
 }
 
 body{
   margin: 0;
   font-family: chaparral-pro, serif;
   font-size: 16px;
-  color: #111;
-  background-color: #eee;
+  color: #2555d5;
+  background-color: #c4fa18;
 }
 
 h1, h2, h3{
@@ -29,7 +29,7 @@ h1{
   font-weight: 500;
   font-size: 3em;
   text-align: center;
-  color: #333;
+  color: #2555d5;
   padding: 0em;
   margin-bottom: 2em;
 
@@ -54,13 +54,13 @@ h4{
 
 
 a, a:visited {
-  color: #000;
+  color: #2555d5;
   text-decoration: none;
   line-height: 1.6em;
 }
 
 a:hover {
-  color: blue;
+  color: #e70700;
 }
 
 .bio{
@@ -90,7 +90,7 @@ a:hover {
 
 .fab, .fas{
   vertical-align: middle;
-  background-color: #333;
+  background-color: #2555d5;
   border-radius: 50%;
   padding: 0.7em;
   margin: 0.8em;
@@ -102,7 +102,7 @@ a > .fab, a > .fas{
 }
 
 .fab:hover, .fas:hover{
-  background-color: blue;
+  background-color: #e70700;
 }
 
 @keyframes fadein {
