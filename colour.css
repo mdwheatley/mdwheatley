@@ -4,9 +4,10 @@ background color sets the colour of the page itself.
 color sets the colour of the text on the page.
  */
 
-html, body{
-  background-color: #fff4e9;
-  color: #2555d5;
+html, body {
+background-image: url(‘https://i.imgur.com/HmVjgU7.png’);
+background-repeat: no-repeat;
+color: #2555d5;
 }
 
 /*
