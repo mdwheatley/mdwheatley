@@ -10,6 +10,8 @@ font-style: normal;
 
 html{
   background-image: url("spinning_book1.gif");
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #eee;
 }
 
@@ -19,6 +21,8 @@ body{
   font-size: 16px;
   color: #111;
   background-image: url("spinning_book1.gif");
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #eee;
 }
 
