@@ -1,79 +1,126 @@
+<!--
+Here is a template for the site if you want to try and write the page yourself. I have tried to add in comments to help you fill in the details. Message me on twitter or email if you have any questions.
+
+The content of the webpape is controlled by the index.html file. The changes you make to this will change the writing you see on the page.
+
+All the design of the page (font, colours etc.) is controlled by the main.css file. You are welcome to customise this anyway you like.
+
+You can open this html file using your browser. If you make a change to this or the main.css and save it, you can then see the change by refreshing your browser.
+ -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD Wheatley</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link rel="stylesheet" type="text/css" href="colour.css" />
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+<!--
+Enter your name here, this is what appears in the tab label on a browser.
+ -->
+<title>MD Wheatley</title>
 </head>
+
 <body>
-    <header>
-        <h1>MD Wheatley</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="section1">
-            <h2>Section 1</h2>
-            <div class="scroll-container">
-                <div class="scroll-content">
-                    <p><a href="#">Link to writing 1</a></p>
-                    <p><a href="#">Link to writing 2</a></p>
-                    <p><a href="#">Link to writing 3</a></p>
-                    <p><a href="#">Link to writing 4</a></p>
-                    <p><a href="#">Link to writing 5</a></p>
-                </div>
-                <div class="navigation">
-                    <button class="arrow-left" onclick="scrollLeft()">◀</button>
-                    <button class="arrow-right" onclick="scrollRight()">▶</button>
-                </div>
-            </div>
-        </section>
-        <section id="section2">
-            <h2>Section 2</h2>
-            <div class="scroll-container">
-                <div class="scroll-content">
-                    <p><a href="#">Link to writing 6</a></p>
-                    <p><a href="#">Link to writing 7</a></p>
-                    <p><a href="#">Link to writing 8</a></p>
-                    <p><a href="#">Link to writing 9</a></p>
-                    <p><a href="#">Link to writing 10</a></p>
-                </div>
-                <div class="navigation">
-                    <button class="arrow-left" onclick="scrollLeft()">◀</button>
-                    <button class="arrow-right" onclick="scrollRight()">▶</button>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Contact: <a href="mailto:you@example.com">you@example.com</a></p>
-        <p>Follow me on:
-            <a href="https://twitter.com/yourprofile">Twitter</a>,
-            <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
-        </p>
-    </footer>
+<div class="list">
 
-    <script>
-        function scrollLeft() {
-            const scrollContainer = document.querySelector('.scroll-container');
-            scrollContainer.scrollBy({
-                left: -100,
-                behavior: 'smooth'
-            });
-        }
+<!--
+This is your name that appears at the top of the webpage
+ -->
+<h1 class="name">md wheatley</h1>
 
-        function scrollRight() {
-            const scrollContainer = document.querySelector('.scroll-container');
-            scrollContainer.scrollBy({
-                left: 100,
-                behavior: 'smooth'
-            });
-        }
-    </script>
+<!--
+The below space is used for filling in your bio, if you dont want a bio delete everything below.
+ -->
+<div class="bio">
+<div class="bioTitle">
+<h3></h3>
+</div>
+
+md's a husband, father, and writer living in charleston, sc. he's currently working on 2 more books of poetry.
+
+</div>
+
+<!--
+If you're deleting the bio, stop deleting from here.
+ -->
+
+<!--
+Here's where we will fill in all your work.
+The h3 and h4 are your headers. These help split the links into categories.
+The <a ... part is a link.
+
+Replace the google link with the link to your Work
+Replace "Work Title [Journal]" with whatever you like.
+
+The <br> is a line brake. This makes sure each link is on a new line.
+ -->
+
+<h3>books</h3>
+
+<ul>
+<li><a href="https://l4spress.bigcartel.com/product/what-a-heaven-could-feel-like-by-md-wheatley" target="_blank">what a heaven could feel like [love for sale]</a></li> 
+</ul> 
+
+<h3>poetry</h3>
+
+<ul>
+<li><a href="https://www.havehashad.com/hadposts/12-poems" target="_blank">12 poems [had]</a></li> 
+<li><a href="https://backpatio.press/2024/02/15/12-poems-by-md-wheatley/" target="_blank">12 poems [back patio]</a></li>
+<li><a href="https://nomoreprostitutes.com/md-wheatley" target="_blank">a poem made out of a shirt made from angel wings [no more prostitutes]</a></li> 
+<li><a href="https://backpatio.press/2023/12/15/i-am-a-body-inside-a-bubble-by-md-wheatley/" target="_blank">i am a body inside a bubble [back patio]</a></li> 
+<li><a href="https://spectrapoets.org/washer-song-by-MD-Wheatley" target="_blank">washer song [spectra]</a></li>
+<li><a href="https://www.hobartpulp.com/web_features/5-poems-8e0ccc97-2097-48e0-bbbe-35580b0f96ed" target="_blank">5 poems [hobart]</a></li>
+<li><a href="https://expatpress.com/kool-aid-poems-md-wheatley/" target="_blank">kool-aid poems [expat]</a></li>
+<li><a href="https://spectrapoets.org/extended-release-by-MD-Wheatley" target="_blank">extended release [spectra]</a></li> 
+<li><a href="https://rejection-letters.com/2023/06/06/almost-didnt-go-md-wheatley/" target="_blank">almost didn't go [rejection letters]</a></li>
+<li><a href="https://rejection-letters.com/2023/03/20/clinical-md-wheatley/" target="_blank">clinical [rejection letters]</a></li>
+</ul>
+
+<h3>fiction</h3>
+
+<ul>
+<li><a href="https://www.hobartpulp.com/web_features/three-days-til-christmas-in-the-kmart-off-hoffmeyer-road" target="_blank">three days 'til christmas in the kmart off hoffmeyer road [hobart]</a></li>
+<li><a href="https://backpatio.press/2023/10/17/the-obituaries-by-md-wheatley/" target="_blank">the obituaries [back patio]</a></li>
+<li><a href="https://www.hobartpulp.com/web_features/evel-knievels" target="_blank">evel knievels [hobart]</a></li>
+</ul>
+
+<h3>non-fiction</h3>
+
+<ul>
+<li><a href="https://apocalypse-confidential.com/2023/09/09/stairway-to-heaven/" target="_blank">stairway to heaven [apcon]</a></li>
+<li><a href="https://www.hobartpulp.com/web_features/trip-report" target="_blank">vibe check from god [hobart]</a></li>
+</ul> 
+ 
+</div>
+
+<!--
+This is the section with the contact and the social buttons. Edit it however you want.
+ -->
+<div class="contact">
+<h3>contact</h3>
+
+<!--
+To link to a direct email then include "mailto:youremail@example.com"
+
+To link to a site add the URL in between the "" for the 'href=""'
+ -->
+<a href="mailto:mdisalways@gmail.com"><i class="fas fa-envelope"></i></a>
+<a href="https://twitter.com/hipcandelori" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="https://instagram.com/md.wheatley" target="_blank"><i class="fab fa-instagram"></i></a>
+
+<!--
+If you have more social media or contact links you can keep adding them.
+The icons I'm using are the fontawesome ones.
+You can find all the icons avaliable by going to fontawesome.com
+
+
+-->
+</div>
+
+
 </body>
 </html>
